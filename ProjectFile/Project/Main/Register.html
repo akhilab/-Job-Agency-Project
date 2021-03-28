@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CEGEP DE LA GASPÉSIE ET DES ILES</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<div class="inner">
+
+						<!-- Logo -->
+							<a href="index.html" class="logo">
+									<span class="fa fa-briefcase"></span> <span class="title">CEGEP DE LA GASPÉSIE ET DES ILES</span>
+								</a>
+
+						<!-- Nav -->
+							<nav>
+								<ul>
+									<li><a href="#menu">Menu</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+
+						<li><a href="jobs.html">Jobs</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Register.html">Register</a></li>
+
+						<li>
+							<a href="#" class="dropdown-toggle">About</a>
+
+							<ul>
+								<li><a href="about.html" class="active">About Us</a></li>
+								<li><a href="testimonials.html">Testimonials</a></li>
+								<li><a href="terms.html">Terms</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div id="register" class="animate form">
+                            <form  autocomplete="on" onsubmit="signUp()"> 
+                                <h1> Sign up </h1> 
+                                <p> 
+                                  <!--  <label for="username" class="uname" data-icon="u">Your username</label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="mysuperusername690" /> -->
+                                </p>
+                                <p> 
+                                    <label for="email" class="youmail" data-icon="e" > Your email</label>
+                                    <input id="email" name="email" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p">Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                               <!--     <label for="password_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+                                    <input id="password_confirm" name="password_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/> -->
+                                </p>
+                                <p class="signin button"> 
+                                    <input type="submit" value="Sign Up"/> 
+                                </p>
+                                <p class="change_link">  
+                                    Already a member ?
+                                    <a href="#tologin" class="to_register"> Go and log in </a>
+                                </p>
+                            </form>
+                        </div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								</ul>
+
+								&nbsp;
+							</section>
+
+							<ul class="copyright">
+								<li>Copyright © 2020 CEGEP DE LA GASPÉSIE ET DES ILES</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="script.js"></script>
+	</body>
+</html>
